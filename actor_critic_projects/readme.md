@@ -1,4 +1,4 @@
-Использование метода обучения [PGCN (policy gradient coagent networks)](https://arxiv.org/abs/1910.06489) для решения задачи контроля в среде Acrobot.
+Использование метода обучения [PGCN (Policy Gradient Coagent Network)](https://arxiv.org/pdf/2005.05941.pdf) для решения задачи контроля в среде Acrobot
 
 
 
