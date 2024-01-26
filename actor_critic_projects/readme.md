@@ -12,3 +12,7 @@
 ![plot_acrobot_test_1_moving_avg_5_trial](https://github.com/tiyunes/snn_rl/assets/79756733/a8c903f9-c176-417b-9c2b-fd83c20c249b)
 
 Среднее значение награды на 50 **тестовых** эпизодах: -168.62 
+
+Решение задачи управления в среде **Cartpole** (воспроизведение результатов):
+
+![Figure 2023-12-17 022328](https://github.com/tiyunes/snn_rl/assets/79756733/4db9ba99-11d8-4a75-b1e3-b2582234de8d)
