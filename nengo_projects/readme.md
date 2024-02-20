@@ -1,5 +1,15 @@
-unofficial implementation of Fremaux N, Sprekeler H, Gerstner W (2013) Reinforcement Learning Using a Continuous Time Actor-Critic Framework with Spiking Neurons using Nengo and OpenAI Gym from https://github.com/ndey96/spiking-actor-critic
+Использованиие подхода Actor-Critic для решения задачи Acrobot
 
-https://colab.research.google.com/drive/1Nlvkxzmr6xb0vg-7ToWaeNeNCjopWkup?usp=sharing
+Actor представляет собой спайковую нейронную сеть (вход сети - неспайковый, скрытый и выходной слои - спайковые), обучение происходит на основе PGCN (Policy Gradien Coagent Network) 
+Critic - спайковая нейронная сеть, обучение происходит на основе правила TD-LTP
+
+График награды* в процессе обучения:
+
+![reward_plot](https://github.com/tiyunes/snn_rl/assets/79756733/7a921c69-2e07-4520-b769-f8c1d41d6498)
+
+График награды на 70 тестовых итерациях:
+
+![test_rewards](https://github.com/tiyunes/snn_rl/assets/79756733/8a47374c-66eb-4086-bad7-bb009a74ec35)
 
 
+* в процессе обучения каждый неуспешный шаг вычиталось 10 единиц награды, за успешное завершение начислялось 50 единиц награды. В процессе тестирования каждый шаг вносит вклад -1 единиц награды
