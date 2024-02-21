@@ -9,7 +9,8 @@ Critic - спайковая нейронная сеть, обучение про
 
 График награды на 70 тестовых итерациях:
 
-![test_rewards](https://github.com/tiyunes/snn_rl/assets/79756733/8a47374c-66eb-4086-bad7-bb009a74ec35)
+![test_rewards_upd](https://github.com/tiyunes/snn_rl/assets/79756733/4c4403a7-2eee-46d6-bd50-b11afc44581c)
+
 
 Среднее значение награды на 70 тестовых итерациях: -206.83
 
