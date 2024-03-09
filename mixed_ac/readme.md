@@ -1,4 +1,4 @@
-Использованиие подхода Actor-Critic для решения задачи Acrobot [mixed_ac.py]
+Использованиие подхода Actor-Critic для решения задачи Acrobot [mixed_ac_acrobot.py]
 
 Actor представляет собой спайковую нейронную сеть (вход сети - неспайковый, скрытый и выходной слои - спайковые), обучение происходит на основе PGCN (Policy Gradien Coagent Network) [Aenugu, 2020]
 Critic - спайковая нейронная сеть, обучение происходит на основе правила TD-LTP [Fremaux, Gerstner, 2013]
