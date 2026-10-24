@@ -19,7 +19,7 @@ python nonspiking_critic/acrobot/test.py
 | `hidden_layers/mountain_car_500n` | `train_hidden.py` | `hidden_layer.pt` |
 | `hidden_layers/mountain_car_1000n` | `train_hidden.py` | `hidden_layer.pt` |
 
-Датасеты: `data/`. Для CartPole нужен `data/states_for_scale.json` (датасет из Vlasov et al., 2023, в репозиторий не включён).
+Датасеты: `data/`. `states_for_scale.json` — датасет CartPole из Vlasov et al., 2023.
 
 ## 2. Неспайковый critic
 
