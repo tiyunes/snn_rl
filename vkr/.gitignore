@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+runs/
+eval_*.npz
+eval_*.png
